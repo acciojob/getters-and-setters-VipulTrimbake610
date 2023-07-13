@@ -15,6 +15,12 @@ class Person {
 }
 
 class Student extends Person {
+	name;
+	age;
+	constructor(name,age){
+		this.name = name;
+		this.age = age;
+	}
 	study(){
 		console.log(name," is studying");
 	}
@@ -22,9 +28,12 @@ class Student extends Person {
 
 class Teacher extends Person {
 	teach(){
-		console.log(name," is teaching");
+		console.log(name," is teaching")
 	}
 }
+
+const p = new Person("John",30);
+console.log(p)
 
 // Do not change the code below this line
 window.Person = Person;
