@@ -15,8 +15,8 @@ class Person {
 }
 
 class Student extends Person {
-	name;
-	age;
+	_name;
+	_age;
 	constructor(name,age){
 		this.name = name;
 		this.age = age;
