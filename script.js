@@ -6,10 +6,10 @@ class Person {
 		this.name = name;
 		this.age = age;
 	}
-	getter(){
+	get (){
 		console.log(name);
 	}
-	setter(age){
+	set (age){
 		this.age = age;
 	}
 }
