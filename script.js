@@ -19,10 +19,8 @@ class Person {
 }
 
 class Student extends Person {
-	name;
 	constructor(name,age){
-		this.name = name;
-		this.age = age;
+		super(name,age)
 	}
 	study(){
 		console.log(this.name," is studying");
@@ -35,6 +33,8 @@ class Teacher extends Person {
 	}
 }
 
+// const student = new Student("vipul",30);
+// student.study();
 
 // Do not change the code below this line
 window.Person = Person;
