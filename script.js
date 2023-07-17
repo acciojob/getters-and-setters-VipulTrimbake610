@@ -33,8 +33,9 @@ class Teacher extends Person {
 	}
 }
 
-// const student = new Student("vipul",30);
-// student.study();
+const student = new Student("John", 30);
+console.log(student.name)
+student.study();
 
 // Do not change the code below this line
 window.Person = Person;
